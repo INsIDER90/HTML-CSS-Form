@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1 id="main-heading">SELF-FORM</h1>
+            <fieldset id="first"> <legend>PERSONAL</legend>
+            <p>
+                NAME:
+                <input type="text" placeholder="ENTER YOUR NAME" name="name" required>
+            </p>
+            <p>
+                Email
+                <input type="email" name="email" placeholder="ENTER YOUR Email" required>
+            </p>
+            <p>
+                MOB.NO
+                <input type="number" name="number" placeholder="ENTER YOUR NUMBER" required>
+            </p>
+            <p>
+                Subject
+                <select name="subject">
+                    <option value="">---Select a Subject</option>
+<option value="Appointment">Appointment</option>
+<option value="Consult">Consult</option>
+<option value="Meeting">Meeting</option>
+<option value="Meet">Meet</option>
+<option value="Visit">Visit</option>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>MESSAGE</legend>
+            <P>
+                Message
+                <textarea name="message"  cols="100" rows="7"></textarea>
+            </P>
+            <input type="submit" value="SUBMIT">
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>

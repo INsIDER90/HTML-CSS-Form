@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color: grey;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+#main-heading{
+    text-align: center;
+}
+#first{
+    background-color: papayawhip;
+}
+
+
+input[type="submit"]{
+    background-color: #29dfec;
+    color: black;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #4caf84;
+}
